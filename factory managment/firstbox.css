@@ -1,0 +1,20 @@
+.container
+{
+    height : 230px;
+    width : 100%;
+    /* Border :2px solid red; */
+    display: flex;
+}
+.box
+{
+    height: 200px;
+    width : 33%;
+    background-color: white;
+    /* border: 2px solid green; */
+    margin: 10px;
+    padding: 3px;
+    /* display: inline-block; */
+}
+#box2 img{
+    width: 35px;
+}

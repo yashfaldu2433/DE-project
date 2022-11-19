@@ -1,0 +1,73 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    /* background: url('background.png'); */
+    background-color: #F0F2F5;
+    
+}
+.nav
+{
+    /* border: 2px solid rebeccapurple; */
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+}
+.left
+{
+    position: absolute;
+    left: 30px;
+    top:10px;
+    /* border: 2px solid red; */
+    color: #892E88;
+    display: inline-block;
+
+}
+.left img
+{
+    margin: 7px 37px;
+    width: 80px;
+}
+.left div{
+    text-align: center;
+}
+.right
+{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    display: inline-block;
+    /* border: 2px solid blue; */
+    color:#892E88;
+
+}
+.menu
+{
+    display: inline-block;
+}
+.menu li
+{
+    display:inline-block;
+    font-size: 20px;
+}
+.menu li a
+{
+    color: #892E88;
+    text-decoration: none;
+    padding :15px 15px;
+}
+.menu li a:hover
+{
+    color: rgb(105, 103, 112);
+}
+.btn
+{
+    background-color: #FFCC33;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 25px;
+    padding: 9px 13px;
+}
+.btn a{
+    color: rgba(0, 0, 0, 0.701);
+}
